@@ -7,13 +7,13 @@ Below is a collection of key terms commonly used in the realm of Large Language 
 ## Adversarial Examples
 **Definition**: Adversarial examples are inputs intentionally crafted to mislead an LLM, with the goal of exposing the model’s vulnerabilities. By making subtle perturbations to the input data, an attacker can cause large shifts in the model’s output or predictions.
 
-**Mathematical Context**: Consider a model $f(\mathbf{x}; \theta)$, where $\theta$ represents the model parameters and $\mathbf{x}$ is the input. An adversarial example $\mathbf{x}_\text{adv}$ can be found by adding a small perturbation $\delta$ that maximizes a loss function $L$:
-$$
+**Mathematical Context**: Consider a model \(f(\mathbf{x}; \theta)\), where \(\theta\) represents the model parameters and \(\mathbf{x}\) is the input. An adversarial example \(\mathbf{x}_\text{adv}\) can be found by adding a small perturbation \(\delta\) that maximizes a loss function \(L\):
+\[
 \mathbf{x}_\text{adv} = \mathbf{x} + \delta 
 \quad \text{where} \quad
 \delta = \arg \max_{\|\delta\|\leq \epsilon} L(f(\mathbf{x} + \delta; \theta)).
-$$
-Here, $\epsilon$ controls the size of the perturbation.
+\]
+Here, \(\epsilon\) controls the size of the perturbation.
 
 ---
 
@@ -25,39 +25,39 @@ Here, $\epsilon$ controls the size of the perturbation.
 ## Attention Mechanism
 **Definition**: An attention mechanism helps an LLM focus on specific parts of the input sequence when generating an output. It allows the model to weigh the relevance of different tokens, enabling more efficient processing of long or complex sequences.
 
-**Mathematical Context**: In a simplified form, given a set of queries $Q$, keys $K$, and values $V$, the attention output is:
-$$
+**Mathematical Context**: In a simplified form, given a set of queries \(Q\), keys \(K\), and values \(V\), the attention output is:
+\[
 \mathrm{Attention}(Q, K, V) = \mathrm{softmax}\!\biggl(\frac{QK^\top}{\sqrt{d_k}}\biggr)V,
-$$
-where $d_k$ is the dimensionality of the keys.
+\]
+where \(d_k\) is the dimensionality of the keys.
 
 ---
 
 ## Autoregressive
 **Definition**: An autoregressive model generates text one token at a time, conditioning each subsequent token on all previously generated tokens. This approach underlies many popular LLMs, such as the GPT series.
 
-**Mathematical Context**: For a sequence of tokens $x_1, x_2, \dots, x_n$, an autoregressive model factorizes the joint probability as:
-$$
+**Mathematical Context**: For a sequence of tokens \(x_1, x_2, \dots, x_n\), an autoregressive model factorizes the joint probability as:
+\[
 P(x_1, x_2, \dots, x_n) = \prod_{t=1}^{n} P(x_t \mid x_{1}, \dots, x_{t-1}).
-$$
+\]
 
 ---
 
 ## Backpropagation
 **Definition**: Backpropagation is the primary algorithm for training neural networks, including LLMs. It calculates gradients of the loss function with respect to each parameter, then updates parameters in the direction that reduces the loss.
 
-**Mathematical Context**: Given a loss function $L(\theta)$, the gradient update for a parameter $\theta$ is:
-$$
+**Mathematical Context**: Given a loss function \(L(\theta)\), the gradient update for a parameter \(\theta\) is:
+\[
 \theta \leftarrow \theta - \eta \frac{\partial L(\theta)}{\partial \theta},
-$$
-where $\eta$ is the learning rate.
+\]
+where \(\eta\) is the learning rate.
 
 ---
 
 ## Beam Search
 **Definition**: Beam search is a decoding strategy in which multiple candidate sequences are kept ("beam width") at each generation step. The method tracks the most likely sequences to produce a more optimal final output.
 
-**Mathematical Context**: For each step $t$, beam search expands each sequence in the beam by all possible next tokens, keeping only the top $k$ sequences (where $k$ is the beam width) based on their cumulative log probabilities.
+**Mathematical Context**: For each step \(t\), beam search expands each sequence in the beam by all possible next tokens, keeping only the top \(k\) sequences (where \(k\) is the beam width) based on their cumulative log probabilities.
 
 ---
 
@@ -94,20 +94,20 @@ where $\eta$ is the learning rate.
 ## Cosine Similarity
 **Definition**: Cosine similarity measures how similar two vectors are by computing the cosine of the angle between them. It is widely used to compare word embeddings or text representations.
 
-**Mathematical Context**: For two vectors $\mathbf{a}$ and $\mathbf{b}$,
-$$
+**Mathematical Context**: For two vectors \(\mathbf{a}\) and \(\mathbf{b}\),
+\[
 \text{cosine\_similarity}(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\|\|\mathbf{b}\|}.
-$$
+\]
 
 ---
 
 ## Cross-entropy Loss
 **Definition**: Cross-entropy loss is a measure of the difference between two probability distributions, often used to train and evaluate language models. Minimizing cross-entropy typically leads to better predictive performance.
 
-**Mathematical Context**: For a true distribution $p$ and a predicted distribution $q$, cross-entropy is defined as:
-$$
+**Mathematical Context**: For a true distribution \(p\) and a predicted distribution \(q\), cross-entropy is defined as:
+\[
 H(p, q) = - \sum_{x} p(x) \log q(x).
-$$
+\]
 
 ---
 
@@ -145,9 +145,9 @@ $$
 **Definition**: The F1 score combines precision (the fraction of predicted positives that are truly positive) and recall (the fraction of true positives that are correctly identified). It is given by the harmonic mean of precision and recall.
 
 **Mathematical Context**:
-$$
+\[
 F_1 = 2 \times \frac{\text{precision} \times \text{recall}}{\text{precision} + \text{recall}}.
-$$
+\]
 
 ---
 
@@ -185,9 +185,9 @@ $$
 **Definition**: KL divergence measures the dissimilarity between two probability distributions. It is frequently used in machine learning to compare model predictions with true distributions.
 
 **Mathematical Context**:
-$$
+\[
 D_{\mathrm{KL}}(P \| Q) = \sum_{x} P(x) \log \frac{P(x)}{Q(x)}.
-$$
+\]
 
 ---
 
@@ -252,7 +252,7 @@ $$
 ---
 
 ## N-gram
-**Definition**: An n-gram is a contiguous sequence of $n$ items (usually words) from a text. N-gram models were early methods of statistical language modeling before the advent of deep learning.
+**Definition**: An n-gram is a contiguous sequence of \(n\) items (usually words) from a text. N-gram models were early methods of statistical language modeling before the advent of deep learning.
 
 ---
 
@@ -269,10 +269,10 @@ $$
 ## Perplexity
 **Definition**: Perplexity is a metric used to evaluate the predictive power of language models. A lower perplexity indicates better performance.
 
-**Mathematical Context**: For a model that assigns probability $p(x_1, x_2, \dots, x_N)$ to a test set of $N$ tokens,
-$$
+**Mathematical Context**: For a model that assigns probability \(p(x_1, x_2, \dots, x_N)\) to a test set of \(N\) tokens,
+\[
 \text{Perplexity} = 2^{-\frac{1}{N} \sum_{i=1}^{N} \log_2 p(x_i)}.
-$$
+\]
 
 ---
 
@@ -295,9 +295,9 @@ $$
 **Definition**: Recall measures the proportion of relevant instances correctly identified by the model. It is especially important when missing a relevant instance is costly.
 
 **Mathematical Context**:
-$$
+\[
 \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}.
-$$
+\]
 
 ---
 
