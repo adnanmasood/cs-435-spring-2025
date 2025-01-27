@@ -3,23 +3,23 @@
 ## 1. Definitions of Bias at Five Levels of Detail
 
 ### 1.1. Basic Insight
-> **Bias** is when something is unfairly guided or influenced toward a certain outcome. Think of it like a pair of tinted glasses that changes how you see everything.
+**Bias** is when something is unfairly guided or influenced toward a certain outcome. Think of it like a pair of tinted glasses that changes how you see everything.
 
 ### 1.2. Foundational Understanding
-> **Bias** occurs when data, decisions, or processes are skewed toward certain groups or outcomes, leading to unfair or imbalanced results. This can happen in people (human biases) or in algorithms (machine biases).
+**Bias** occurs when data, decisions, or processes are skewed toward certain groups or outcomes, leading to unfair or imbalanced results. This can happen in people (human biases) or in algorithms (machine biases).
 
 ### 1.3. Intermediate Deep Dive
-> **Bias** in artificial intelligence refers to systematic errors in machine learning models or decision-making systems that cause certain groups or outcomes to be favored or disfavored. These biases can stem from historical data, design choices, or hidden assumptions in algorithms. Over time, they can lead to unfair or discriminatory impacts if not recognized and mitigated.
+**Bias** in artificial intelligence refers to systematic errors in machine learning models or decision-making systems that cause certain groups or outcomes to be favored or disfavored. These biases can stem from historical data, design choices, or hidden assumptions in algorithms. Over time, they can lead to unfair or discriminatory impacts if not recognized and mitigated.
 
 ### 1.4. Comprehensive Overview
-> **Bias** is an omnipresent phenomenon manifesting whenever a non-representative process influences data generation, selection, or interpretation. In AI, bias arises through:
-> - **Data Bias**: Sample imbalance, historical prejudices, or flawed labeling.
-> - **Algorithmic Bias**: Model structures or training procedures that disproportionately weight certain features or outcomes.
-> - **Systemic Bias**: Broader societal and institutional patterns embedded into datasets and decision pipelines.
-> The result is a systematic deviation of model predictions or decisions that can disadvantage specific subpopulations or distort factual accuracy.
+**Bias** is an omnipresent phenomenon manifesting whenever a non-representative process influences data generation, selection, or interpretation. In AI, bias arises through:
+- **Data Bias**: Sample imbalance, historical prejudices, or flawed labeling.
+- **Algorithmic Bias**: Model structures or training procedures that disproportionately weight certain features or outcomes.
+- **Systemic Bias**: Broader societal and institutional patterns embedded into datasets and decision pipelines.
+The result is a systematic deviation of model predictions or decisions that can disadvantage specific subpopulations or distort factual accuracy.
 
 ### 1.5. Expert/Scholarly Analysis
-> **Bias** in AI systems can be formally conceptualized as a deviation from some normative benchmark of “fairness” or “objectivity,” frequently operationalized through fairness criteria (e.g., demographic parity, equal opportunity). Under this lens, an AI system exhibits bias if its decision boundary or predicted conditional distributions differ significantly across protected groups (e.g., race, gender) absent legitimate, policy-sanctioned reasons. This includes (but is not limited to) biases arising from distributional drift, latent variable confounding, and institutionalized historical inequities in the dataset. In advanced fairness research, bias is further dissected into causal or observational frameworks, establishing robust definitions that consider interventions, counterfactual scenarios, and ethical constraints (see Pearl’s structural causal models and Hardt et al.’s fairness metrics).
+**Bias** in AI systems can be formally conceptualized as a deviation from some normative benchmark of “fairness” or “objectivity,” frequently operationalized through fairness criteria (e.g., demographic parity, equal opportunity). Under this lens, an AI system exhibits bias if its decision boundary or predicted conditional distributions differ significantly across protected groups (e.g., race, gender) absent legitimate, policy-sanctioned reasons. This includes (but is not limited to) biases arising from distributional drift, latent variable confounding, and institutionalized historical inequities in the dataset. In advanced fairness research, bias is further dissected into causal or observational frameworks, establishing robust definitions that consider interventions, counterfactual scenarios, and ethical constraints (see Pearl’s structural causal models and Hardt et al.’s fairness metrics).
 
 ---
 
