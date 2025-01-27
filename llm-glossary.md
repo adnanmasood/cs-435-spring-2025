@@ -105,9 +105,10 @@ where $\eta$ is the learning rate.
 **Mathematical Context**: For two vectors \(\mathbf{a}\) and \(\mathbf{b}\):
 
 $$
-\text{cosine\_similarity}(\mathbf{a}, \mathbf{b})
+cosine\_similarity(\mathbf{a}, \mathbf{b})
 = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\|\|\mathbf{b}\|}.
 $$
+
 
 ---
 
