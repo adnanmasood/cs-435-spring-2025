@@ -99,12 +99,14 @@ where $\eta$ is the learning rate.
 ---
 
 ## Cosine Similarity
+
 **Definition**: Cosine similarity measures how similar two vectors are by computing the cosine of the angle between them. It is widely used to compare word embeddings or text representations.
 
-**Mathematical Context**: For two vectors $\mathbf{a}$ and $\mathbf{b}$
+**Mathematical Context**: For two vectors \(\mathbf{a}\) and \(\mathbf{b}\):
 
 $$
-\text{cosine\_similarity}(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\|\|\mathbf{b}\|}.
+\operatorname{cosine\_similarity}(\mathbf{a}, \mathbf{b}) 
+= \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\|\|\mathbf{b}\|}.
 $$
 
 ---
