@@ -1,11 +1,9 @@
-** “Attention Is All You Need” (Vaswani et al., 2017)**  
-_Attribution:_  
+#  Attention Is All You Need” (Vaswani et al., 2017)  
+
 The paper “Attention Is All You Need” was originally published as:  
 > Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,  
 > Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin (2017).  
 > *Attention Is All You Need*. arXiv:1706.03762v7 [cs.CL].  
-
-Google has granted permission to reproduce tables and figures from the paper for scholarly works. The excerpts and figures below are used under that permission.  
 
 https://arxiv.org/abs/1706.03762
 
