@@ -1,4 +1,8 @@
-## 1. The Scenario
+Below is a **step-by-step** illustration of how to remove (or at least reduce) bias in a simple toy dataset by using a **reweighting** technique. 
+
+---
+
+## 1. The Scenario (Toy Dataset)
 
 Imagine we have 8 applicants for a job. Each applicant has a **Gender** (Male `M` or Female `F`) and an outcome variable **Hired**, which is `1` if they were hired and `0` if they were not.
 
