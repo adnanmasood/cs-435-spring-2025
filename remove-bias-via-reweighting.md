@@ -2,7 +2,7 @@ Below is a **step-by-step** illustration of how to remove (or at least reduce) b
 
 ---
 
-## 1. The Scenario (Toy Dataset)
+## 1. The Scenario
 
 Imagine we have 8 applicants for a job. Each applicant has a **Gender** (Male `M` or Female `F`) and an outcome variable **Hired**, which is `1` if they were hired and `0` if they were not.
 
