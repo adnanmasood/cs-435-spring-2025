@@ -1,6 +1,6 @@
-# ** Ethical AI Regulations Assessment**
+# Ethical AI Regulations Assessment
 
-## **Overview**
+## Overview
 
 In this assignment, you will evaluate a detailed AI scenario against five different AI-related laws and frameworks:
 
