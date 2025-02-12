@@ -3,7 +3,7 @@
 ### **Objective**
 
 1. **Hands-On Practice**: Strengthen algorithmic thinking by solving a coding challenge from LeetCode.  
-2. **LLM Comparison**: Explore how different LLMs (e.g., ChatGPT, Bard, Claude, Llama, etc.) approach and solve the same problem.  
+2. **LLM Comparison**: Explore how different LLMs (e.g., ChatGPT, Gemini, Claude, Llama, etc.) approach and solve the same problem.  
 3. **Performance & Accuracy Assessment**: Compare the two LLM-generated solutions to **your own** (manual) solution in terms of correctness, efficiency, readability, and clarity.
 
 ---
