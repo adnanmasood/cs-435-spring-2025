@@ -153,7 +153,7 @@ After analyzing each law/framework **individually**, provide a short **compariso
    - Logical **analysis** and **conclusions**.
 
 2. **Comparison Table**  
-   - Optional but recommended: A short table showing **provisions** from each law/framework relevant to the scenario.
+   - A short table showing **provisions** from each law/framework relevant to the scenario.
 
 3. **Reflection**  
    - 1–2 paragraphs on your **personal insights** and **challenges** faced during the assignment (e.g., ambiguity in regulations, difficulty mapping real-world technology to legal text).
@@ -165,13 +165,13 @@ After analyzing each law/framework **individually**, provide a short **compariso
 1. **Relevance of Legal/Framework References (40%)**  
    - Accuracy and thoroughness in mapping the scenario to each law/framework.
 
-2. **Depth of Analysis (30%)**  
+2. **Depth of Analysis (20%)**  
    - Quality of discussion on applicability, gaps, and proposed recommendations.
 
 3. **Clarity and Structure (20%)**  
    - Well-organized, concise, and logically presented.
 
-4. **Original Insight (10%)**  
+4. **Original Insight (20%)**  
    - Comparative or synthetic insights and creative recommendations.
 
 ---
