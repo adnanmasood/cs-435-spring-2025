@@ -26,12 +26,12 @@
    - **Do not** provide your own solution to the LLMs first—let them generate their own solutions from the problem statement alone.
 
 4. **Testing & Comparison**  
-   - **Compile and run** each solution (your manual one + the two LLM solutions) against:  
-     - Sample test cases provided by LeetCode.  
-     - Additional edge cases you design yourself.  
+   - **Compile and Submit** each solution (your manual one + the two LLM solutions) to LeetCode and capture the following details:  
+     - The number of testcases passed. 
+     - If all testcases have passed, what was the amount of time taken and memory used, how does the solution do against other submissions on LeetCode.
    - Document how each solution performs:  
      1. **Correctness**: Does it pass all test cases?  
-     2. **Efficiency**: Track runtime or big-O complexity.  
+     2. **Efficiency**:  Analyse the big-O complexity (a rough idea, with some valid reasoning will suffice).  
      3. **Readability & Structure**: Is the code well-organized and commented?
 
 5. **Deliverables**  
